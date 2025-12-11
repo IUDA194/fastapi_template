@@ -1,0 +1,127 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.build/
+develop-eggs/
+dist/
+downloads/
+wheels/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+.env/
+env/
+venv/
+
+# uv tool
+.uv/
+uv.lock
+
+# ===========================
+# FastAPI / Uvicorn / Logs
+# ===========================
+*.log
+*.pid
+*.db
+*.sqlite
+*.sqlite3
+
+# Run artefacts
+*.coverage
+coverage.xml
+htmlcov/
+
+# ===========================
+# Alembic
+# ===========================
+alembic/versions/__pycache__/
+alembic/__pycache__/
+# Можно игнорить автоматически созданные версии, но обычно их коммитят
+# Если хочешь — раскомментируй:
+# alembic/versions/*.py
+
+# ===========================
+# Editor & OS junk
+# ===========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.Trash-*
+
+# ===========================
+# IDE
+# ===========================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# ===========================
+# Docker
+# ===========================
+docker-data/
+docker-compose.override.yml
+
+# ===========================
+# Redis / Postgres artefacts
+# ===========================
+dump.rdb
+*.rdb
+*.aof
+
+# ===========================
+# Tests / pytest
+# ===========================
+.pytest_cache/
+.cache/
+.tox/
+.mypy_cache/
+
+# ===========================
+# Frontend (если появится)
+# ===========================
+node_modules/
+build/
+dist/
+*.map
+
+# ===========================
+# Local config / secrets
+# ===========================
+*.env.local
+*.env.development
+*.env.production
+*.secret
+secrets.json
+config.local.json
+
